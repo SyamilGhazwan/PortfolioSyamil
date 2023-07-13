@@ -1,0 +1,130 @@
+@media (max-width : 768px) {
+  form.main-contact, div.main-sosmed {
+    width: 80vw;
+  }
+  .checkbtn {
+    display: block;
+  }
+  nav.navbar ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(140, 107, 231, 0.7);
+    text-align: center;
+    align-content: center;
+    transition: all 0.8s;
+    top: 0;
+    z-index: -1;
+    transform: translateY(-100%);
+  }
+  nav ul.navSlider{
+    transform: translateY(0);
+  }
+  nav ul {
+    width: 50%;
+  }
+  div.flex-home {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }  
+  div.con-about {
+    margin: 0 0 50px 0;
+    grid-template-areas: 
+    'profil'
+    'about';
+    
+  }
+  section.contact {
+    grid-template-areas: 
+    'sosmed'
+    'contact';
+  }
+}
+@media (min-width : 768px) and (max-width : 1024px) {
+  div.flex-home {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+  div.main-home img{
+    width: 200px;
+  }
+  form.main-contact, div.main-sosmed {
+    width: 80vw;
+  }
+  section.contact {
+    grid-template-areas: 
+    'sosmed'
+    'contact';
+  }
+  .ex-project img {
+    width: 60vw;
+  }
+  div.con-about {
+    grid-template-areas: 
+      'profil' 
+      'about';
+  }
+}
+@media (min-width : 1024px) {
+  section.home {
+    justify-content: space-evenly;
+  }
+  div.image {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: white;
+    box-shadow: 0 0 10px rgb(255, 255, 255),
+                0 0 30px rgb(0, 0, 0);
+  }
+  .image img {
+    width: 22vw;
+    border-radius: 50%;
+  }
+  div.main-desk {
+    text-align: left;
+  }
+  .main-desk h1 {
+    font-size: 4vw;
+  }
+  .main-desk p {
+    font-size: 2.5vw;
+  }
+  div.flex-home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+  }
+  .home svg {
+    display: block;
+  }
+  div.con-ser {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    overflow: visible;
+  }
+  .ex-project img {
+    width: 25vw;
+  }
+  .overlay img {
+    width: 100%;
+  }
+  a.fa-close {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left:10px;
+    transition: 0.5s;
+  }
+  a.next, a.previous {
+    font-size: 15vh;
+  }
+
+}

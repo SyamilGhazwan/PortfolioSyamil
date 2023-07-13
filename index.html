@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfolio | Muhammad Syamil </title>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="asset/style.css">
+  <link rel="stylesheet" href="asset/animation.css">
+  <link rel="stylesheet" href="asset/clear.css">
+  <link rel="stylesheet" href="asset/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- End -->
+  <!-- Font CSS -->
+  <link src="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap" rel="stylesheet">
+  <!-- End -->
+</head>
+<body>
+
+  <!-- Section navbar -->
+  <nav class="navbar">
+    <input type="checkbox" id="check" >
+    <div class="logo">My Portfolio</div>
+    <ul id="ul" class="">
+      <li><a href="#Home" class="">Home</a></li>
+      <li><a href="#About" class="">About</a></li>
+      <li><a href="#Project" class="">Project</a></li>
+      <li><a href="#Contact" class="">Contact</a></li>
+    </ul>
+    <label for="check" class="checkbtn" id="bt">
+      <i class="fa fa-bars" id="bar"></i>
+    </label>
+  </nav>
+  <!-- End Section Navbar -->
+
+  <!-- Section Home -->
+  <section class="home cf" id="Home">
+    <div class="flex-home">
+      <div class="image">
+        <img src="Foto/pas1.png" alt="">
+      </div>
+      <div class="main-desk">
+        <h1>Welcome to My Porfolio</h1>
+        <p>I'm a <span>Web Development</span></p>
+        <hours id="autohours"></hours><minute id="autominute"></minute>
+      </div>
+      
+    </div>
+  </section>
+  <!-- End Section Home -->
+
+  <!-- Section About -->
+  <section class="about" id="About">
+    <div class="sub-about">
+      <h1>About Me</h1>
+    </div>
+    <div class="con-about">
+      <div class="profil">
+        <img src="/Foto/pas.jpeg" alt="">
+      </div>
+      <div class="about">
+        <div class="biodata">
+          <p>Hi, Saya Muhamad Muhammad Syamil Ghazwan Alakwa lulusan SMK Media Informatika Jakarta Selatan jurusan Rekayasa Perangkat Lunak (RPL) tahun 2022 , dari SMK saya sudah senang di dunia IT hingga saat ini saya belajar bahasa pemrograman di sekolah dan sebagian secara otodidak melalui channel youtube dan website belajar coding seprti W3School, JagoCoding, dan lain sebagainya. Bahasa Pemograman yang saat ini saya kuasai adalah HTML dan CSS, niat saya kedepannya bisa mengusai bahasa Javascript, React, Go, Python, dsb.</p>
+          <p>Pengalaman Praktek Kerja Lapangan saat di SMK yaitu di PT.Jaya Konsultan Indonesia sebaga Staff IT secara online selama 2 bulan, contoh tugas yang diberikan seperti men-design sebuah website dan belajar membuat sistem yang menghubungkan Website dengan Gmail, Menganalisa script yang sudah dikerjakan sesuai dengan perintah.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Section About -->
+  
+  <!-- Section service -->
+  <section class="service">
+    <h1>Service</h1>
+    <div class="flex-ser">
+      <div class="main-service">
+        <div class="icon"><i class="fa fa-briefcase fa-3x"></i></div>
+        <h2>Web Development</h2>
+      </div>
+      <div class="main-service">
+        <div class="icon"><i class="fa fa-wrench fa-3x"></i></div>
+        <h2>Web Design</h2>
+      </div>
+      <div class="main-service">
+        <div class="icon"><i class="fa fa-binoculars fa-3x"></i></div>
+        <h2>Responsive Web</h2>
+      </div>
+      <div class="main-service">
+        <div class="icon"><i class="fa fa-chain fa-3x"></i></div>
+        <h2>Service Web</h2>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Section Project -->
+  <section class="project" id="Project">
+    <h1>Project</h1>
+    <div class="con-ser">
+      <div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar1">
+            <img src="/Foto/img1.jpg" alt="">
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar1">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar9" class="previous round">&#8249;</a>
+            <img src="/Foto/img1.jpg" alt="gambar1">
+            <a href="#gambar2" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div>
+      <div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar2">
+            <img src="/Foto/img2.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar2">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar1" class="previous round">&#8249;</a>
+            <img src="/Foto/img2.jpg" alt="gambar">
+            <a href="#gambar3" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div><div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar3">
+            <img src="/Foto/img3.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar3">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar2" class="previous round">&#8249;</a>
+            <img src="/Foto/img3.jpg" alt="gambar">
+            <a href="#gambar4" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div><div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar4">
+            <img src="/Foto/img4.jpeg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar4">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar3" class="previous round">&#8249;</a>
+            <img src="/Foto/img4.jpeg" alt="gambar">
+            <a href="#gambar5" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div><div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar5">
+            <img src="/Foto/img5.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar5">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar4" class="previous round">&#8249;</a>
+            <img src="/Foto/img5.jpg" alt="gambar">
+            <a href="#gambar6" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div><div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar6">
+            <img src="/Foto/img6.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar6">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar5" class="previous round">&#8249;</a>
+            <img src="/Foto/img6.jpg" alt="gambar">
+            <a href="#gambar7" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div><div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar7">
+            <img src="/Foto/img7.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar7">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar6" class="previous round">&#8249;</a>
+            <img src="/Foto/img7.jpg" alt="gambar">
+            <a href="#gambar8" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div><div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar8">
+            <img src="/Foto/img8.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar8">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar7" class="previous round">&#8249;</a>
+            <img src="/Foto/img8.jpg" alt="gambar">
+            <a href="#gambar9" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div>
+      <div class="main-project">
+        <div class="ex-project">
+          <a href="#gambar9">
+            <img src="/Foto/img9.jpg" alt=""> 
+            <span> Klik Here </span> 
+          </a> 
+        </div>
+        <div class="overlay" id="gambar9">
+          <div class="con-over">
+            <a href="#Project" class="fa fa-close fa-3x"></a>
+            <a href="#gambar8" class="previous round">&#8249;</a>
+            <img src="/Foto/img9.jpg" alt="gambar">
+            <a href="#gambar1" class="next round">&#8250;</a>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </section>
+  <!-- End Section Project -->
+
+  <!-- Section Contact -->
+  <section class="contact" id="Contact">
+    <form autocomplete="off" method="post" class="main-contact">
+      <h1>Send Massage Us</h1>
+      <input type="text" placeholder="YourName" class="textfield" id="name" required>
+      <input type="email" placeholder="YourEmail" class="textfield" id="email" required>
+      <input type="text" placeholder="Subject" class="textfield" id="subject" required>
+      <textarea name="Massage" id="massage" placeholder="Massage" required></textarea>
+      <button type="submit">SEND</button>
+    </form>
+    <div class="main-sosmed">
+      <h1>Contact</h1>
+      <ul>
+        <li><i class="fa fa-whatsapp"></i>0857-8190-1473</li>
+        <li><i class="fa fa-instagram"></i>Syamil.pr</li>
+        <li><i class="fa fa-envelope"></i>syamilghazwanalakwa@gmail.com</li>
+      </ul>
+    </div>
+  </section>
+  <!-- End Section Contact -->
+
+  <!-- Setion Footer -->
+  <section class="footer">
+      <p>@Copyright Portfolio Syamil</p>
+  </section>
+  <!-- End Footer  -->
+
+
+  <!-- Javascript Style -->
+  <script src="script/style.js"></script>
+  <!-- End  -->
+</body>
+</html>

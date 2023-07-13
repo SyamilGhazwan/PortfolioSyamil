@@ -1,0 +1,118 @@
+/* Navbar section */
+nav.navbar ul a:hover {
+  color: black;
+  position: relative;
+  transition: 1.5s all ease;
+}
+nav.navbar ul a:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  border: 2px red solid;
+  background-color: white;
+  animation: hoverLink .5s ease-in-out;
+  z-index: -1;
+}
+/* End */
+
+/* Section Home */
+
+
+/* End */
+
+/* Section Service */
+div.icon:hover {
+  background-color: black;
+  border: 4px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+}
+/* End */
+
+/* Section About */
+.about li.html ::before {
+  content: "60%";
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+  background-color: rgba(233, 45, 38, 1);
+}
+.about li.css ::before {
+  content: "60%";
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+  background-color: rgba(233, 45, 38, 1);
+}
+.about li.javascript ::before {
+  content: "5%";
+  width: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+  background-color: rgba(233, 45, 38, 1);
+}
+/* End */
+
+/* Section Project */
+.ex-project a:hover span {
+  opacity: 1;
+}
+/* End */
+
+/* Section Contact */
+.main-contact button:hover {
+  background: white;
+  color: black;
+}
+div.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+}
+div.overlay:target img{
+  animation: zoomAndfade 0.8s;
+}
+div.overlay:target a{
+  animation: zoomAndfade 1s;
+}
+a.fa-close:hover {
+  color: black;
+}
+a.previous:hover {
+  color: black;
+}
+a.next:hover {
+  color: black;
+}
+/* End */
+
+@keyframes zoomAndfade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes hoverLink {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
