@@ -13,10 +13,7 @@ inputHamburger.addEventListener('click', function(){
     ul.classList.toggle('navSlider')
     for (let i = 0; i < link.length; i++) {
         if (link[i].addEventListener ('click', () => {
-            ul.classList.toggle('navSlider')
-            setTimeout(() => {
-                ul.classList.remove('navSlider')
-            }, 100);
+            
         })); 
     }
 });
